@@ -3,7 +3,7 @@ var async  = require('async');
 var request = require('request');
 
 
-let token_auth = 'Bearer eb12cc405cdc4c73abb4703193a478d5';
+let token_auth = 'Bearer token';
 
 let integrationInformation= {
   "exportConnection":"",
@@ -123,7 +123,7 @@ var ftpImportConnectionOptions = {
             "type": "sftp",
             "hostURI": "celigo.files.com",
             "username": "prince.sharma@celigo.com",
-            "password": "3W7YyOmn8N1w",
+            "password": "PWD",
             "port": 22,
             "usePassiveMode": true,
             "userDirectoryIsRoot": false,
